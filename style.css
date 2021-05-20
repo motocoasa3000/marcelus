@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;;
+    margin:0;
+    background-image:url(marcel2.jfif);
+    min-height:100vh;
+    background-position: 40% 25% ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    flex-direction:column;
+    
+    display: flex;
+ }
+ h1 {
+     text-align: center;
+     font-size: 4rem;
+     color: rgb(52, 65, 93);
+     margin-top: 0rem;
+     text-shadow: inherit;
+   
+ }
+ .ceasornicarie{
+     text-align:right;
+     margin-right: 2rem;
+ }
+ .ceasornicarie span{
+     font-size: 1.8rem;
+     margin-right:1rem ;
+     color: rgb(17, 59, 71);
+ }
+
+ .countdown-container {
+     display:ruby-base-container;
+     
+ }
+
+.big-text {
+ font-weight: bold;
+ font-size: 3rem;
+ line-height: 0.8;
+ margin: 0 2rem;
+ text-align: inherit;
+ margin-right: 1rem;
+ 
+}
+
+@media (min-width: 900px) {
+    body {
+        background-position: 75% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    }
+    h1 {
+        font-size: 4rem;
+        color: rgb(52, 65, 93);
+        margin-top: 0rem;
+        text-shadow: inherit;
+}   
+.big-text {
+    font-weight: bold;
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-container {
+    display:inherit;
+}
+}
